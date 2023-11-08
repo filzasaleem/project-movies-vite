@@ -4,6 +4,7 @@ import { MovieImage } from "../components/MovieImage";
 import { Loading } from "../components/Loading";
 
 export const MovieInfo = () => {
+  const temp;
   const { id } = useParams();
   const apiKey = "bde83eefea9dd68d9520fa912b04d54e";
   const movieUrl = `https://api.themoviedb.org/3/movie/${id}?api_key=${apiKey}&language=en-US`;
@@ -12,6 +13,7 @@ export const MovieInfo = () => {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
+
     const fetchData = async () => {
       try {
         setLoading(true);
