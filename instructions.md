@@ -35,6 +35,7 @@ With your freshly minted API key, you're now ready to start making API requests.
 https://api.themoviedb.org/3/movie/popular?api_key={api_key}&language=en-US&page=1 <br />
 !!! Don't forget to replace {api_key} with your API key if you copy and paste this.
 
+
 ### Fetching a movie's details
 
 https://api.themoviedb.org/3/movie/{movie_id}?api_key={api_key}&language=en-US <br />
