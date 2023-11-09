@@ -20,8 +20,7 @@ export const SimilarMovies = () => {
         setLoading(true);
         const response = await fetch(apiUrl);
         if (response.ok) {
-          const data = await response.json();
-          console.log('similar movies', data.results); 
+          const data = await response.json(); 
           setMovieData(data.results);
           if(data.results.length < 1) setError(true);
         } else {

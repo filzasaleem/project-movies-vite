@@ -25,7 +25,6 @@ export const MovieInfo = () => {
 
         if (response.ok) {
           const data = await response.json();
-          console.log('movie details data', data);
           setMovieData(data);
           setImgPath(data.backdrop_path);
         } else {
