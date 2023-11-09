@@ -1,23 +1,21 @@
-import { BrowserRouter, Routes, Link, Route } from "react-router-dom";
-import routes from "./routes/routes";
-import { Home } from "./pages/Home";
+import { BrowserRouter, Routes } from 'react-router-dom';
+import routes from './routes/routes';
 
 export const App = () => {
   return (
     <>
       <>
         <BrowserRouter>
-          <nav>
+          {/* <nav>
             <ul className="app-ul">
               <li className="app-li">
                 <Link to="/">Home</Link>
               </li>
             </ul>
-          </nav>
+          </nav> */}
 
           <main>
             <Routes>{routes}</Routes>
-           
           </main>
         </BrowserRouter>
       </>
