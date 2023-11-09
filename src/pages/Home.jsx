@@ -39,7 +39,7 @@ export const Home = () => {
                 <div className="aspect-w-2 aspect-h-3 relative overflow-hidden transition-opacity group-hover:opacity-50">
                   <MovieImage imageUrl={movie.backdrop_path} imageSize="w780" />
                 </div>
-                <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-75 p-2 text-white opacity-0 transition-opacity group-hover:opacity-100">
+                <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-75 p-2 opacity-0 transition-opacity group-hover:opacity-100">
                   <p className="text-lg font-bold">{movie.title}</p>
                   <p>{movie.release_date}</p>
                 </div>
