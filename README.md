@@ -35,3 +35,5 @@ Every project should be deployed somewhere. Be sure to include the link to the d
 <a href="instructions.md">
    See instructions of this project
   </a>
+
+# I have used tailwind css for this project.I have done the project alone.
