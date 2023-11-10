@@ -37,3 +37,6 @@ Every project should be deployed somewhere. Be sure to include the link to the d
   </a>
 
 # I have used tailwind css for this project.I have done the project alone.
+
+# deployed project
+https://filzas-movies-project.netlify.app/
