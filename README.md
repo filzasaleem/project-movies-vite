@@ -23,7 +23,7 @@ Additionally, you need to install react-router-dom for routing. Run the followin
 npm install react-router-dom
 ```
 
-### The Challange
+## The Challange
 
 This is a multipage project with the following key features:
 
@@ -40,14 +40,14 @@ Users can click on similar movies to view a list fetched using a different API.
 #### Not Found Page:
 Displays in case the user enters the wrong movie ID.
 
-### Technologies used
+## Technologies used
 1. React- router
 2. react componenst
 3. React Hooks (useState,useEffect)
 4. movies API end point
 5. tailwind css
 
-### Future work
+## Future work
 Potential areas for future improvements and expansion include:
 
 #### Additional Pages:
