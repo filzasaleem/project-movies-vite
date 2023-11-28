@@ -2,6 +2,10 @@
 # Movie Site Project
 The Movie Site Project is a multi-page React application that leverages APIs, with a primary focus on React Router.
 
+### View it live
+experience the movie sit live : [movies-site](https://filzas-movies-project.netlify.app/)
+
+
 ## Getting Started with the Project
 
 ### Dependency Installation & Startup Development Server
@@ -50,9 +54,6 @@ Potential areas for future improvements and expansion include:
 Add pages for each actor involved in movies to provide more comprehensive information.
 #### CSS Improvement:
 Consider improving the CSS by transitioning away from Tailwind CSS for better code readability.
-
-### View it live
-experience the movie sit live : [movies-site](https://filzas-movies-project.netlify.app/)
 
 ## Instructions
 
