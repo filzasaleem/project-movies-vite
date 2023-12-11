@@ -27,6 +27,7 @@ export const Home = () => {
 
     fetchData();
   }, [category]);
+ 
 
   return (
     <>
@@ -53,3 +54,4 @@ export const Home = () => {
     </>
   );
 };
+

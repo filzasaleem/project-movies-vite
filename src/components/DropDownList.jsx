@@ -16,7 +16,7 @@ export const DropDownList = ({ value, setCategory }) => {
           value={value}
           onChange={handleSelectionChange}
         >
-          <option value="">Select one...</option>
+          <option value="" disabled>Select one...</option>
           <option value="popular">Popular</option>
           <option value="upcoming">Upcoming</option>
           <option value="top_rated">Top rated</option>
